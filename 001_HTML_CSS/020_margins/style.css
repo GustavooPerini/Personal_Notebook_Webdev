@@ -1,0 +1,26 @@
+.box{
+    font-family: arial;
+    font-size: 5em;
+    border: 3px solid;
+    width: 250px;
+    height: 250px;
+}
+
+#box1{
+    background-color: red;
+    margin-left: 253px;
+}
+
+#box2{
+    background-color:aqua;
+}
+
+/*
+    margin: 5px; (adiciona um espaçamento de 5px em todos os lados do elemento).
+    margin-top: 5px; (adiciona um espaçamento de 5px em cima do elemento).
+    margin-bottom: 5px; (adiciona um espaçamento de 5px abaixo do elemento).
+    margin-left: 5px; (adiciona um espaçamento de 5px na esquerda do elemento).
+    margin-right: 5px; (adiciona um espaçamento de 5px na direita do elemento).
+    " " ": auto; (bota o espaçamento máximo possível automáticamente).
+    margin: auto; (centraliza o elemento na página).
+*/

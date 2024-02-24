@@ -1,0 +1,23 @@
+body{
+   background-color:rgb(41,41,41); 
+}
+
+h1{
+    color:deepskyblue; /*cor por nome*/
+}
+
+#p1{
+    color:rgb(102,222,225); /*cor por RGB*/
+}
+
+#p2{
+    color:tomato;
+}
+
+#p3{
+    color:#59ff5f; /*cor por hexadecimal*/
+}
+
+#p4{
+    color:hsl(303, 80%, 67%); /*cor por hsl*/
+}

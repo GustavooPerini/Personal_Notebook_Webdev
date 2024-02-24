@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+}
+
+#box1{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13em;
+    text-align: center;
+    background-color: hsl(120, 100%, 70%);
+
+    transform: translate(100px, 100px) rotateZ(45deg) scale(1.2, 1.2);
+}
+
+/*transformations também pegam em imagens*/
+
+/*
+    transform: translateX();
+    transform: translateY();
+    transform: translate(Xpx, Ypx);
+*/
+
+/*
+    transform: rotateX(45deg);
+    transform: rotateY(45deg);
+    transform: rotateZ(45deg);
+*/
+
+/*
+    transform: scaleX(1.2);
+    transform: scaleY(1.2);
+    transform: scale(1.2, 1.2);
+*/
+
+/*
+    transform: skewX(45deg);
+    transform: skewY(45deg);
+    transform: skew(45deg, 60deg);
+*/

@@ -1,0 +1,24 @@
+#label{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Helvetica, sans-serif;
+}
+
+#buttonContainer{
+    text-align: center;
+}
+
+#buttonContainer button{
+
+    background-color: hsl(209, 61%, 67%);
+    font-size: 1.5em;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor:pointer;
+    transition: background-color 0.25s; /*bota um delay na coloração quando passa o mouse*/
+}
+
+#buttonContainer button:hover{
+    background-color: hsl(209, 74%, 54%);;
+}

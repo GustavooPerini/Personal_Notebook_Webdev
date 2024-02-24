@@ -1,0 +1,56 @@
+button{
+    font-size: 30px;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: green;
+}
+button:active{
+    background-color: red;
+}
+
+a{
+    display: inline-block;
+    margin-top: 50px;
+}
+a:link{
+    color: palevioletred;
+}
+a:hover{
+    color: aqua;
+}
+a:active{
+    color: chocolate;
+}
+
+li{
+    font-size: 1.5em;
+}
+li:hover{
+    background-color: greenyellow;
+}
+li:not(:hover){
+    background-color: gray;
+}
+li:nth-child(){ /*3n 3n+1 3n+2 even odd*/
+    background-color: blueviolet;
+}
+
+#greetings{
+    margin-top: 60px;
+    font-size: 40px;
+}
+#greetings p{
+    background-color: aquamarine;
+    padding: 25px;
+    display: none;
+}
+#greetings:hover p{
+    display: block;
+}
+
+
+/*
+    pseudo classes = são palavras-chave que mudam o comportamento de um elemento em
+                     determinado estado.
+*/

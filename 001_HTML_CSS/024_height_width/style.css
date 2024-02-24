@@ -1,0 +1,27 @@
+*{ /*aplica em todos os elementos*/
+    box-sizing: border-box; /*deixa um do lado do outro, desconsiderando bordas e padding*/
+}
+
+.container{
+    background-color: grey;
+    height: 100vh; /*viewport height*/
+}
+
+.box{
+    background-color: aliceblue;
+    border: 2px solid;
+    padding: 25px;
+    height: auto;
+    width: 50%;
+    float: left;
+    text-align: center; /*alinha o texto*/
+    min-height: 50%;
+}
+
+
+/*
+    min-height = seta um valor mínimo para a altura.
+    max-height = seta um valor máximo para a altura.
+    min-width = seta um valor mínimo para a largura.
+    max-width = seta um valor máximo para a largura.
+*/

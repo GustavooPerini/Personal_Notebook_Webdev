@@ -1,0 +1,38 @@
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+
+p::first-line{
+    background-color: yellow;
+}
+p::selection{
+    color: green;
+    background-color: grey;
+}
+
+#fruit li::before{
+    content: "👀"; /*para abrir os emojis, aperte windows + . (ponto)*/
+}
+#apple::after{
+    content: "🍎";
+}
+#orange::after{
+    content: "🍊";
+}
+#banana::after{
+    content: "🍌";
+}
+#fruit li::marker{
+    content: "✔";
+    color: green;
+    font-size: 1.2em;
+}
+
+
+/*
+pseudo elements = palavras-chave utilizadas após um selector que são usadas
+                      para aplicar estilos a partes específicas de um elemento.
+
+                      h1::pseudo-element
+*/

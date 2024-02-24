@@ -1,0 +1,38 @@
+#box1{
+
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: sticky;
+    top: 0px;
+    
+}
+
+
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+
+
+/*
+    position: relative; - possibilita posicionar um elemento de acordo com o que vc quer
+    com os comandos top, left, bottom, right.
+
+    position: fixed; - deixa o elemento em uma posição fixa na página web, porém ele
+    não possui uma posição própria e acompanha sempre o scroll.
+
+    position: absolute; - posição relativa ao ancestral mais próximo(div dentro de div).
+
+    position: sticky; - deixa o elemento em uma posição fica na página, porém ele
+    possui uma posição própria e só acompanha o scroll quando sai da posição dele.
+    (bota top:0px;)
+
+    position: static; - bota o elemento na posição padrão.
+
+*/

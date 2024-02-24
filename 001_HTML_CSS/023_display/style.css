@@ -1,0 +1,23 @@
+div{ /*block-level element*/
+    background-color: rgb(108, 199, 206);
+    width: 100px;
+    height:100px;
+    display: inline-block;
+      
+}
+
+span{ /*inline element*/
+    background-color: rgb(241, 104, 104);
+    width:100px; /*sem um display para mudar as características do elemento, nada muda*/
+    height:100px;
+    display: inline-block;
+}
+
+
+/*
+    display: block; - faz um elemento atuar como um block-level element.
+    display: inline; - faz um elemento atuar como um inline element.
+    display: inline-block; - faz um elemento atuar como um inline e block element.
+    display: none; - excluí um elemento.
+    visibility: hidden; - esconde um elemento, seu espaço continua sendo ocupado.
+*/

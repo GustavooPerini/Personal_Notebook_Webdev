@@ -1,0 +1,34 @@
+#container{
+    border: 2px solid;
+}
+
+#container p{
+    background-color: yellow;
+}
+
+/*#container > p{
+    background-color: yellow;
+}*/
+
+/*#container ~ p{
+    background-color: yellow;
+}*/
+
+/*#container + p{
+    background-color: yellow;
+}*/
+
+/*
+    combinators = mostra a relação entre entre um elemento e outro baseado no
+                  carácter escolhido. 
+
+                  = descendant
+                > = child
+                ~ = general siblings
+                + = adjacent siblings
+*/
+
+/* 
+    (elemento) (relação) (elemento)  ex: div > p
+    eu quero saber a relção de child entre a div e os parágrafos dela.
+*/

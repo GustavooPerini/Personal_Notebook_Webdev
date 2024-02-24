@@ -1,0 +1,11 @@
+h1{
+    font-family: "Honk" ,verdana, arial; /*apos a virgula, temos uma fonte de backup*/
+}
+
+p{
+    font-family: "lucida console", "courier new";
+    font-size: 18px; /* 1em (100%)*/
+    font-weight: bold;
+    font-style: italic;
+
+}

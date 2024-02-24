@@ -1,0 +1,19 @@
+body{
+    background-color:black;
+}
+
+h1{
+    color: aliceblue;
+}
+
+#p1{
+    color: aqua;
+}
+
+#p2{
+    color: blueviolet;
+}
+
+.ud{
+    color: red;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Formulário</title>
+    </head>
+
+    <body>
+        
+        <form action="index.php" method="POST" enctype="multipart/form-data">
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="GuguPerini" minlength="6" maxlength="15" required>
+            <br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" minlength="6" maxlength="15" required>
+            <br>
+
+            <label for="email">e-mail:</label>
+            <input type="email" id="email" placeholder="gustavo@gmail.com" required>
+            <br>
+
+            <label for="phone">Phone #:</label>
+            <input type="tel" id="phone" placeholder="ddd12345-6789" pattern="[0-9]{3}[0-9]{5}-[0-9]{4}">
+            <br>
+
+            <label for="bday">Birthdate:</label>
+            <input type="date" id="bday" required>
+            <br>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" min="0" max="99" value="1">
+            <br>
+
+            <label for="title">Title:</label>
+            <label for="Mr.">Mr.</label>
+            <input type="radio" id="Mr." value="Mr." name="title">
+
+            <label for="Ms.">Ms.</label>
+            <input type="radio" id="Ms." value="Ms." name="title">
+
+            <label for="PhD.">PhD.</label>
+            <input type="radio" id="PhD." value="PhD." name="title">
+            <br>
+
+            <label for="payment">Payment:</label>
+            <select id="payment">
+                <option value="visa">VISA</option>
+                <option value="mastercard">MASTERCARD</option>
+                <option value="pix">PIX</option>
+            </select>
+            <br>
+
+            <label for="subscribe">Subscribe:</label>
+            <input type="checkbox" id="subscribe">
+            <br>
+
+            <label for="comment">Comments:</label>
+            <textarea id="comment" rows="3" cols="25"></textarea>
+            <br>
+
+            <label for="file">File:</label>
+            <input type="file" id="file" accept="image/png, image/jpeg">
+            <br>
+
+            <input type="reset"> <br>
+            <input type="submit">
+
+        </form>
+
+    </body>
+
+</html>

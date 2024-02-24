@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Botões</title>
+    </head>
+
+    <body>
+        <a href="https://www.google.com.br/" target="_blank" title="Google">
+            <button style="font-size: 25px; background-color: blue; color: aliceblue; border-radius: 25px;">
+                Clique aqui!
+            </button>
+        </a>
+        <br>
+
+        <h3>Botão executando um código JavaScript</h3>
+
+        <button onclick="doSomething()" style="font-size: 25px; background-color: blue; color: aliceblue; border-radius: 25px;">
+            Clique aqui!
+        </button>
+
+        <p id="greeting">Hello!</p>
+
+        <script>
+            function doSomething(){
+                document.getElementById("greeting").innerHTML = "Goodbye!";
+            }
+        </script>
+
+    </body>
+</html>

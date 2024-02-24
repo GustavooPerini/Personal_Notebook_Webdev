@@ -1,0 +1,16 @@
+div{
+    border: 2px solid;
+    height: 45px;
+
+    /*overflow: visible; esse é o padrão quando ocorre overflow*/
+
+    /*overflow: hidden; esconde todo coteúdo que sair da área do elemento*/
+
+    /*overflow: clip; mesma coisa que o hidden. Mas ao utilizar com a linha de baixo,
+    overflow-clip-margin: 25px; deixa uma quantidade de conteúdo sair da area */
+
+    /*overflow: scroll; cria uma barra de scroll na vertical e horizontal*/
+
+    overflow: auto; /*resolve automaticamente o problema colocando um scroll bar, caso
+                    seja necessário*/
+}
