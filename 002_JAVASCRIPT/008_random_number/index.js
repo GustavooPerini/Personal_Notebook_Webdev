@@ -6,7 +6,7 @@
 const MIN = 50;
 const MAX = 100;
 
-let randomNumber = Math.floor(Math.random() * (MAX - MIN)) + MIN;
+let randomNumber = Math.floor(Math.random() * (MAX - MIN + 1)) + MIN;
 */
 
 //let randomNumber = Math.floor(Math.random()*6) + 1; numero aleatório de 1 a 6
